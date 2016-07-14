@@ -5,11 +5,9 @@ For more details on F5 iWorkflow, visit F5's DevCentral iWorkflow Wiki and read 
 
 Requires POSTMAN. Get that here: https://www.getpostman.com
 
-
 Environment:
 To use these collections you will need to import the POSTMAN environment file:
 https://github.com/npearce/F5_iWorkflow_iControl.REST_API_Commands/blob/master/iWorkflow%2520Lab.postman_environment.json
-
 
 Collections:
 Name: F5 iWorkflow iControl.REST API - Auth Tokens.postman_collection
