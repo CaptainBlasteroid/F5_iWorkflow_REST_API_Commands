@@ -13,4 +13,5 @@ https://github.com/npearce/F5_iWorkflow_iControl.REST_API_Commands/blob/master/i
 
 Collections:
 Name: F5 iWorkflow iControl.REST API - Auth Tokens.postman_collection
+URL: https://github.com/npearce/F5_iWorkflow_iControl.REST_API_Commands/blob/master/README.md
 Description: Using BASIC auth, retrieves an "Auth Token" from iWorkflow and sets Token as a POSTMAN variable. Changes the Auth Token timeout from 3600 seconds to 36000, then uses the Token to retrieve a list of iWorkflow Tenants (to test it worked).
