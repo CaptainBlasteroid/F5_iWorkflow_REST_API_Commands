@@ -1,6 +1,6 @@
 {
 	"id": "823f3d9c-1dd1-a495-df1c-0804bb90e247",
-	"name": "F5 iWorkflow iControl.REST API - Add a BIG-IP device to iWorkflow",
+	"name": "F5 iWorkflow REST API - Add a BIG-IP device to iWorkflow",
 	"description": "",
 	"order": [],
 	"folders": [
