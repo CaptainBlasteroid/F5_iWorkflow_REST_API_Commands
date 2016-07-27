@@ -16,8 +16,8 @@
 	"requests": [
 		{
 			"id": "7cf29840-e2e8-4537-f7dd-b7029c5b2c34",
-			"headers": "X-F5-Auth-Token: {{iWorkflow_Auth_Token}}\nContent-Type: application/json\n",
-			"url": "https://{{iWorkflow_Mgmt_IP}}/mgmt/shared/authz/tokens/{{iWorkflow_Auth_Token}}",
+			"headers": "X-F5-Auth-Token: {{iWorkflow1_Auth_Token}}\nContent-Type: application/json\n",
+			"url": "https://{{iWorkflow_Mgmt_IP}}/mgmt/shared/authz/tokens/{{iWorkflow1_Auth_Token}}",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "PATCH",
@@ -35,7 +35,7 @@
 		},
 		{
 			"id": "a8723dd1-3408-d9a3-006a-0657dd1085e5",
-			"headers": "X-F5-Auth-Token: {{iWorkflow_Auth_Token}}\n",
+			"headers": "X-F5-Auth-Token: {{iWorkflow1_Auth_Token}}\n",
 			"url": "https://{{iWorkflow_Mgmt_IP}}/mgmt/cm/cloud/tenants",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -60,7 +60,7 @@
 			"method": "POST",
 			"data": [],
 			"dataMode": "raw",
-			"tests": "var respData = JSON.parse(responseBody);\n\ntests[\"response has token: \" +respData.token.token] = respData.token.token;\n\npostman.setEnvironmentVariable('iWorkflow_Auth_Token',respData.token.token);\n",
+			"tests": "var respData = JSON.parse(responseBody);\n\ntests[\"response has token: \" +respData.token.token] = respData.token.token;\n\npostman.setEnvironmentVariable('iWorkflow1_Auth_Token',respData.token.token);\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"time": 1468523981010,
