@@ -1,6 +1,6 @@
 {
 	"id": "40522c5e-6b66-b89c-678d-de3b86d2f7b5",
-	"name": "F5 iWorkflow iControl.REST API - Auth Tokens",
+	"name": "F5 iWorkflow REST API - Auth Tokens",
 	"description": "",
 	"order": [
 		"fde7999a-fe7c-8bdb-b779-bbd4c3bc6187",
@@ -53,7 +53,7 @@
 		},
 		{
 			"id": "fde7999a-fe7c-8bdb-b779-bbd4c3bc6187",
-			"headers": "Authorization: Basic YWRtaW46YWRtaW4=\nContent-Type: application/json\n",
+			"headers": null,
 			"url": "https://{{iWorkflow_Mgmt_IP}}/mgmt/shared/authn/login",
 			"preRequestScript": null,
 			"pathVariables": {},
