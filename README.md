@@ -7,7 +7,7 @@ Requires POSTMAN. Get that here: https://www.getpostman.com
 
 **Environment:**
 To use these collections you will need to import the POSTMAN environment file:
-https://github.com/npearce/F5_iWorkflow_iControl.REST_API_Commands/blob/master/iWorkflow%20Lab.postman_environment.json
+https://github.com/npearce/F5_iWorkflow_REST_API_Commands/blob/master/iWorkflow%20Lab.postman_environment.json
 
 #Collections:
 ##F5 iWorkflow iControl.REST API - Auth Tokens
